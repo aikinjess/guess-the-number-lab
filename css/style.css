@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 20px;
+    font-family: Helvetica neue, roboto;
+    display: flex;
+    flex-direction: column;
+    background-image : url("https://i.imgur.com/xS48z9v.jpg");
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+  }
+  #startButton {
+    background-color: pink;
+  
+    
+  }
+  
+  #gameOutput {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+   
+  }
+  
+  #gameInput {
+    color: black;
+    text-align: center;
+  
+  }
+  
+  #guessButton {
+    background-color: rgb(0, 221, 250);
+    
+  }
