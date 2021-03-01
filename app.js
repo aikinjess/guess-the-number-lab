@@ -22,7 +22,8 @@ const game = {
   // This code sets everything to default when the "Start/Restart the game!" button is pressed
     this.userInput.value = ""
     this.guessButton.innerHTML = this.title;
-    this.output.innerHTML = "";
+    this.output.innerHTML = ""
+
   },
 
   // This code gets the user input and sets it to the game's userGuess property
@@ -44,3 +45,5 @@ const game = {
     }
   }
 }
+
+game.play();
